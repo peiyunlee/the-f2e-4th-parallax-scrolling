@@ -1,14 +1,14 @@
 <script setup>
-import ImgDashboard from '../assets/image/banner/dashboard.svg?component'
-import ImgCode from '../assets/image/banner/code.svg?component'
+// import ImgDashboard from '../assets/image/banner/dashboard.svg?component'
+// import ImgCode from '../assets/image/banner/code.svg?component'
 import Img4th from '../assets/image/banner/4th.svg?component'
 </script>
 
 <template>
-  <div class="banner">
-    <div class="hero-section">
+  <div class="section">
+    <div class="banner">
       <div class="title-container">
-        <Img4th class="img-4th"/>
+        <Img4th class="img-4th" />
         <h1>THE F2E</h1>
       </div>
       <h2>互動式網頁設計</h2>
@@ -32,12 +32,8 @@ import Img4th from '../assets/image/banner/4th.svg?component'
 </template>
 
 <style scoped>
+/* banner */
 .banner {
-  padding-top: 14px;
-}
-
-/* hero-section */
-.hero-section {
   max-width: 1440px;
   margin: 80px 96px 208px;
   position: relative;
@@ -66,7 +62,9 @@ h1 {
   left: 0;
 }
 
-h1,h1::before,h1::after {
+h1,
+h1::before,
+h1::after {
   font-family: 'Monument Extended';
   font-size: 80px;
   line-height: 96px;
@@ -130,15 +128,15 @@ h2 {
   align-items: center;
   height: 58px;
   width: 1440px;
+  padding: 0;
   overflow: hidden;
 }
 
-.marquee li:nth-child(2n-1){
+.marquee li:nth-child(2n-1) {
   height: 58px;
 }
 
 .img-star {
   margin: 0 30px;
 }
-
 </style>

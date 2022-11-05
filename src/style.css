@@ -67,6 +67,10 @@ ul {
   text-align: center;
 }
 
+section {
+  margin-bottom: 14px;
+}
+
 /* @media (prefers-color-scheme: light) {
   :root {
     color: #213547;
