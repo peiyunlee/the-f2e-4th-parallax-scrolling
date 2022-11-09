@@ -2,24 +2,13 @@
 import Header from './components/Header.vue'
 import Banner from './components/Banner.vue'
 import Questions from './components/Questions.vue'
+import Answer from './components/Answer.vue'
+import './assets/css/font.css'
 </script>
 
 <template>
   <Header/>
   <Banner />
   <Questions />
+  <Answer />
 </template>
-
-<style>
-@font-face {
-  font-family: 'Monument Extended';
-  src: local('Monument Extended'),
-    url(./assets/fonts/MonumentExtended/PPMonumentExtended-Regular.otf) format("truetype");
-}
-
-@font-face {
-  font-family: 'Noto Sans CJK';
-  src: local('Noto Sans CJK'),
-    url(./assets/fonts/NotoSansCJK/NotoSansCJKtc-Regular.otf) format("truetype");
-}
-</style>

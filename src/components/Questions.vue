@@ -1,6 +1,6 @@
 <template>
-  <div class="section">
-    <div class="questions">
+  <div class="section-wrapper">
+    <div class="section section-questions">
       <img src="../assets/image/questions/shape-1.png" alt="" />
       <img src="../assets/image/questions/shape-2.png" alt="" />
       <img src="../assets/image/questions/shape-3.png" alt="" />
@@ -18,10 +18,8 @@
 
 <style scoped>
 /* questions */
-.questions {
-  max-width: 1440px;
+.section-questions {
   margin: 120px 264px;
-  position: relative;
   height: 860px;
 }
 

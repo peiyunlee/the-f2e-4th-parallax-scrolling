@@ -5,8 +5,8 @@ import Img4th from '../assets/image/banner/4th.svg?component'
 </script>
 
 <template>
-  <div class="section">
-    <div class="banner">
+  <div class="section-wrapper">
+    <div class="section section-banner">
       <div class="title-container">
         <Img4th class="img-4th" />
         <h1>THE F2E</h1>
@@ -27,16 +27,22 @@ import Img4th from '../assets/image/banner/4th.svg?component'
       <li><img src="../assets/image/banner/star.png" class="img-star" alt="" /></li>
       <li><img src="../assets/image/banner/joinus.png" alt="" /></li>
       <li><img src="../assets/image/banner/star.png" class="img-star" alt="" /></li>
+      <li><img src="../assets/image/banner/joinus.png" alt="" /></li>
+      <li><img src="../assets/image/banner/star.png" class="img-star" alt="" /></li>
+      <li><img src="../assets/image/banner/joinus.png" alt="" /></li>
+      <li><img src="../assets/image/banner/star.png" class="img-star" alt="" /></li>
+      <li><img src="../assets/image/banner/joinus.png" alt="" /></li>
+      <li><img src="../assets/image/banner/star.png" class="img-star" alt="" /></li>
+      <li><img src="../assets/image/banner/joinus.png" alt="" /></li>
+      <li><img src="../assets/image/banner/star.png" class="img-star" alt="" /></li>
     </ul>
   </div>
 </template>
 
 <style scoped>
 /* banner */
-.banner {
-  max-width: 1440px;
+.section-banner {
   margin: 80px 96px 208px;
-  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
