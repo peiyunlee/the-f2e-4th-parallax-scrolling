@@ -3,6 +3,10 @@ import Header from './components/Header.vue'
 import Banner from './components/Banner.vue'
 import Questions from './components/Questions.vue'
 import Answer from './components/Answer.vue'
+import Game from './components/Game.vue'
+import Activity from './components/Activity.vue'
+import Award from './components/Award.vue'
+import QA from './components/QA.vue'
 import './assets/css/font.css'
 </script>
 
@@ -11,4 +15,8 @@ import './assets/css/font.css'
   <Banner />
   <Questions />
   <Answer />
+  <Game />
+  <Activity />
+  <Award />
+  <QA />
 </template>
